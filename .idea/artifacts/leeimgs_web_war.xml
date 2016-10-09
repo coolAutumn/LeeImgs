@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="leeimgs-web:war">
+    <output-path>$PROJECT_DIR$/leeimgs-web/target</output-path>
+    <root id="archive" name="leeimgs-web.war">
+      <element id="artifact" artifact-name="leeimgs-web:war exploded" />
+    </root>
+  </artifact>
+</component>
