@@ -27,4 +27,8 @@
             <name>Fern</name>
         </developer>
     </developers>
+
+    <dependencyManagement>
+
+    </dependencyManagement>
 </project>
