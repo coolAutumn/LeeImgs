@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>leeimgs-all</artifactId>
+        <groupId>net.leeautumn.leeimgs</groupId>
+        <version>1.0-Developing</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>leeimgs-fetchimgs</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>leeimgs-storeimgs</artifactId>
+            <version>1.0-Developing</version>
+        </dependency>
+    </dependencies>
+
+</project>

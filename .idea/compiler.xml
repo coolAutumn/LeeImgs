@@ -22,13 +22,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="leeimgs-fetchimgs" />
+        <module name="leeimgs-psimgs" />
+        <module name="leeimgs-storeimgs" />
+        <module name="leeimgs-tools" />
         <module name="leeimgs-transimgs" />
+        <module name="leeimgs-users" />
         <module name="leeimgs-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="LeeImgs" target="1.5" />
+      <module name="leeimgs-fetchimgs" target="1.5" />
+      <module name="leeimgs-psimgs" target="1.5" />
+      <module name="leeimgs-storeimgs" target="1.5" />
+      <module name="leeimgs-tools" target="1.5" />
       <module name="leeimgs-transimgs" target="1.5" />
+      <module name="leeimgs-users" target="1.5" />
       <module name="leeimgs-web" target="1.5" />
     </bytecodeTargetLevel>
   </component>
