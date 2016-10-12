@@ -19,7 +19,7 @@ import java.io.IOException;
  * Created by coolAutumn on 10/11/16.
  */
 @Controller
-public class StoreImgController {
+public class UploadImgController {
 
     String username = null;
     @Autowired
@@ -32,9 +32,8 @@ public class StoreImgController {
      * 该请求包含两个参数 request和service
      * @return  根据request的值来返回对应的wmts规范文档
      */
-    @RequestMapping(value="/uploadimg")
-    @ResponseBody
-    public ModelAndView storeimg(@RequestParam(value = "upimgs",required = true)MultipartFile multipartFile){
+    @RequestMapping(value="uploadimg")
+    public String storeimg(@RequestParam(value = "upimgs",required = true)MultipartFile multipartFile){
         //判断文件类型
 
         //获取用户名
@@ -56,10 +55,8 @@ public class StoreImgController {
         }
 
         //跳转View
-        ModelAndView modelAndView = new ModelAndView();
-        modelAndView.setViewName("storesucceed");
-        modelAndView.addObject("imgurl",imgurl);
-        return modelAndView;
+        httpServletRequest.setAttribute("imgurl",imgurl);
+        return "forward:/storesucceed.jsp";
     }
 
 

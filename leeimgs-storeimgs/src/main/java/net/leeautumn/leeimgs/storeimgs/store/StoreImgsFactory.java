@@ -91,6 +91,9 @@ class StoreImgsThread implements Runnable{
             } catch (IOException e) {
                 e.printStackTrace();
             }
+        }else {
+            //若已经存在则直接返回,不需要重复I/O
+            return;
         }
 
         DataOutputStream dataOutputStream = null;

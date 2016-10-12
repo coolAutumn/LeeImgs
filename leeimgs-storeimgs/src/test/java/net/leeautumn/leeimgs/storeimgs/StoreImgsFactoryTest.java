@@ -9,7 +9,7 @@ import org.junit.Test;
  * blog: leeautumn.net
  */
 public class StoreImgsFactoryTest {
-    @Test
+//    @Test
     public void basedirTest(){
         Assert.assertEquals("equals","/home/leeimgs", StoreImgsFactory.basedir);
     }

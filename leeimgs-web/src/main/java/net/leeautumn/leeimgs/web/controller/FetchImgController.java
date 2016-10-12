@@ -34,7 +34,7 @@ public class FetchImgController {
      * 该请求包含两个参数 request和service
      * @return  根据request的值来返回对应的wmts规范文档
      */
-    @RequestMapping(value="/fetchimg")
+    @RequestMapping(value="fetchimg")
     public void fetchimg(){
         //判断文件类型
 

@@ -14,9 +14,10 @@
 <head>
     <title>Store Imgs</title>
 </head>
-<body>
-<form action="/service/uploadimg" method="post" enctype="multipart/form-data">
+<body style="text-align: center">
+<form action="service/uploadimg" method="post" enctype="multipart/form-data">
     <input type="file" name="upimgs"/>
+    <br/>
     <input type="submit"/>
 </form>
 </body>

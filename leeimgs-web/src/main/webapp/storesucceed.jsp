@@ -14,9 +14,10 @@
 <head>
     <title>Store Succeed</title>
 </head>
-<body>
+<body style="text-align: center">
     <h2>Congratulations!You have store the img sucessful.</h2>
     <br/>
-    <p>You can get the img by <code><%=basepath%>/fetchimg?imgurl=${imgurl}</code></p>
+    You can get the img by <a href=<%=basepath%>service/fetchimg?imgurl=<%=request.getAttribute("imgurl")%> > <%=basepath%>service/fetchimg?imgurl=<%=request.getAttribute("imgurl")%> </a></p>
+    <img src="<%=basepath%>service/fetchimg?imgurl=<%=request.getAttribute("imgurl")%>"/>
 </body>
 </html>
