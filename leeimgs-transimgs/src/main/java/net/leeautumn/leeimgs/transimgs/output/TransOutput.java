@@ -12,7 +12,7 @@ public class TransOutput {
 
     /**
      * 由于不确定给controller返回的对象是什么类型,这里直接用Object类型
-     * @return
+     * @return 返回给前段controller的对象
      */
     public Object output(ITransObject transObject,OutputMode outputMode){
 

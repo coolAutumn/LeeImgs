@@ -3,7 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LeeImgs.iml" filepath="$PROJECT_DIR$/LeeImgs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leeimgs-fetchimgs/leeimgs-fetchimgs.iml" filepath="$PROJECT_DIR$/leeimgs-fetchimgs/leeimgs-fetchimgs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leeimgs-psimgs/leeimgs-psimgs.iml" filepath="$PROJECT_DIR$/leeimgs-psimgs/leeimgs-psimgs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leeimgs-storeimgs/leeimgs-storeimgs.iml" filepath="$PROJECT_DIR$/leeimgs-storeimgs/leeimgs-storeimgs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leeimgs-tools/leeimgs-tools.iml" filepath="$PROJECT_DIR$/leeimgs-tools/leeimgs-tools.iml" />
       <module fileurl="file://$PROJECT_DIR$/leeimgs-transimgs/leeimgs-transimgs.iml" filepath="$PROJECT_DIR$/leeimgs-transimgs/leeimgs-transimgs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leeimgs-users/leeimgs-users.iml" filepath="$PROJECT_DIR$/leeimgs-users/leeimgs-users.iml" />
       <module fileurl="file://$PROJECT_DIR$/leeimgs-web/leeimgs-web.iml" filepath="$PROJECT_DIR$/leeimgs-web/leeimgs-web.iml" />
     </modules>
   </component>

@@ -15,6 +15,11 @@
     <modules>
         <module>leeimgs-transimgs</module>
         <module>leeimgs-web</module>
+        <module>leeimgs-psimgs</module>
+        <module>leeimgs-storeimgs</module>
+        <module>leeimgs-fetchimgs</module>
+        <module>leeimgs-tools</module>
+        <module>leeimgs-users</module>
     </modules>
 
     <developers>
